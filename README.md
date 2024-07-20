@@ -184,9 +184,7 @@ Développer un système de gestion de restaurant permettant de gérer les réser
 
 2. **Préparation pour le Déploiement :**
     - Préparer le package de l'application pour le déploiement.
-    - Fournir des instructions cl
-
-aires pour installer et configurer l'application sur un serveur de production.
+    - Fournir des instructions claires pour installer et configurer l'application sur un serveur de production.
 
 3. **Déploiement sur un Serveur de Production :**
     - Déployer l'application sur un serveur de production (par exemple, AWS, Heroku, etc.).
