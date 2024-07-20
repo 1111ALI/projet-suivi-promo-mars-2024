@@ -7,14 +7,14 @@ Développer un système de gestion de restaurant permettant de gérer les réser
 
 #### Spécifications Techniques de Base :
 1. **Langage de Programmation** : Java
-2. **Framework Backend** : Spring Boot
+2. **Framework Backend** : Spring Boot v3.3.2
 3. **Base de Données** : PostgreSQL
 4. **ORM** : Hibernate
-5. **Framework Frontend** : Angular
-6. **Gestion des Dépendances (Backend)** : Maven
+5. **Framework Frontend** : Angular v17
+6. **Gestion des Dépendances (Backend)** : Maven v3.9.6
 7. **Gestion des Dépendances (Frontend)** : npm
 8. **Authentification** : Spring Security (Backend) et JWT (Frontend)
-9. **Tests Unitaires (Backend)** : JUnit
+9. **Tests Unitaires (Backend)** : JUnit5 Mockito
 10. **Tests Unitaires (Frontend)** : Jasmine et Karma
 11. **Gestion des Versions** : Git
 
