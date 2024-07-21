@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres
+    container_name: postgres-db
+    restart: always
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=restaurant
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 5433:8080
+  
+  api:
+    build: backend/.
+    container_name: backend-api
+    ports:
+      - 5431:5431
+
+
+volumes:
+  pgdata:
